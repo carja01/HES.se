@@ -1,0 +1,48 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(105, 74, 49);
+    border-bottom: none;
+    margin-left:30%;
+    margin-right:30%;
+    background-color: rgb(255, 230, 194);
+}
+header h1{
+    color:rgb(105, 74, 49);
+}
+body{
+    margin:0;
+    background-color: rgb(190, 227, 238);
+    overflow-x: hidden;
+}
+.HuvudBild img{
+    border-style:groove;
+    
+    border: 5px solid rgb(105, 74, 49);
+    
+    width:30%;
+    height: 30%;
+    margin-left:50%;
+}
+
+.InformationRuta{
+    border: 5px solid rgb(105, 74, 49);
+    background-color: rgb(255, 230, 194);
+
+}
+.InformationRuta p{
+    color:rgb(105, 74, 49);
+}
+.knappar{
+    border: 5px solid rgb(105, 74, 49);
+    background-color: rgb(255, 230, 194);
+}
+.knappar button{
+background-color: rgb(255, 230, 194);
+border:none;
+}
+.knappar button:hover{
+    background-color: rgba(197, 176, 147,0.35);
+}
