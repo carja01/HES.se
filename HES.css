@@ -24,13 +24,12 @@ body{
     
     width:30%;
     height: 30%;
-    margin-left:50%;
+    margin-left:60%;
 }
 
-.InformationRuta{
-    border: 5px solid rgb(105, 74, 49);
-    background-color: rgb(255, 230, 194);
 
+.InformationRuta{
+    color:rgb(105, 74, 4);
 }
 .InformationRuta p{
     color:rgb(105, 74, 49);
@@ -45,4 +44,13 @@ border:none;
 }
 .knappar button:hover{
     background-color: rgba(197, 176, 147,0.35);
+}
+.Bottom p{
+    justify-content: center;
+    align-items: center;
+}
+.Info{
+    border: 5px solid rgb(105, 74, 49);
+    background-color: rgb(255, 230, 194);
+    margin-right:70%;
 }
