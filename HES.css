@@ -31,6 +31,14 @@ body{
 .InformationRuta{
     color:rgb(105, 74, 4);
 }
+.InformationRuta div:hover{
+    scale:105%;
+    transition: 1s;
+}
+.InformationRuta div{
+    scale:100%;
+    transition: 1s;
+}
 .InformationRuta p{
     color:rgb(105, 74, 49);
 }
@@ -52,5 +60,26 @@ border:none;
 .Info{
     border: 5px solid rgb(105, 74, 49);
     background-color: rgb(255, 230, 194);
+    
+    margin:5%;
+    
+}
+.Företagsinformation{
+    border: 5px solid rgb(105, 74, 49);
+    background-color: rgb(255, 230, 194);
+    
+    margin:5%;
     margin-right:70%;
+}
+.vårVerksamhet{
+    border: 5px solid rgb(105, 74, 49);
+    background-color: rgb(255, 230, 194);
+    margin:5%;
+}
+.OmFöretag{
+    border: 5px solid rgb(105, 74, 49);
+    background-color: rgb(255, 230, 194);
+    margin-left:5%;
+    margin-right:80%;
+    margin-top:5%;
 }
